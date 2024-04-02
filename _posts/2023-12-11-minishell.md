@@ -6,7 +6,7 @@ category: toy
 [![](https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sayoon-mandarine/micorshell)
 
 ---
-{: data-content="회고록	"}
+{: data-content="회고록"}
 
 ### 어려웠던 점
 
@@ -15,7 +15,7 @@ category: toy
 
 
 
-#### 배웠던 것들
+### 배웠던 것들
 
 
 
