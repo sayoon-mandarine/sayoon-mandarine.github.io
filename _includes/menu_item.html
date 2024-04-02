@@ -2,9 +2,9 @@
   {%-for item in include.collection-%}
     <li>
     {%- if item.url -%}
-      <a href="{{ item.url }}">{{ item.title }}</a>
+      <a href="{{ item.url }}" style="font-family: 'D2codingBold'" target="_blank">{{ item.title }}</a>
     {%- else -%}
-      {{ item.title }}
+	<span style="font-family: 'D2codingBold'">{{ item.title }}</span>
     {%- endif -%}
     </li>
 
@@ -23,4 +23,5 @@
       {%-include menu_item.html collection=item.entries-%}
     {%-endif-%}
   {%-endfor-%}
+  <br>
 </ul>

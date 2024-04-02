@@ -1,4 +1,4 @@
-title: PapaerPlease # name of the site
+title: 404 not found # name of the site
 author: SangJeong Yoon # name of site's author
 email: sayoon@student.42seoul.kr # email of site's author
 url: sayoon-mandarine.github.io # root address of the site
@@ -16,8 +16,8 @@ remote_theme: riggraz/no-style-please
 
 theme_config:
   appearance: "auto" # can be "light", "dark" or "auto"
-  back_home_text: ".." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
+  back_home_text: "< back" # customize text for homepage link in post layout
+  date_format: "%Y_%m_%d" # customize how date is formatted
   show_description: false # show blog description in home page
 
 sass:

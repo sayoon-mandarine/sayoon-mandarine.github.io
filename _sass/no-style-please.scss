@@ -16,7 +16,7 @@ body[a="dark"] { @include dark-appearance; }
 }
 
 @font-face {
-	font-family: 'D2 coding';
+	font-family: 'D2coding';
 	font-style: normal;
 	font-weight: 400;
 	src: url('D2Coding.eot');
@@ -29,7 +29,7 @@ body[a="dark"] { @include dark-appearance; }
 }
 
 @font-face {
-	font-family: 'D2 coding';
+	font-family: 'D2codingBold';
 	font-style: normal;
 	font-weight: 700;
 	src: url('D2CodingBold.eot');
@@ -41,18 +41,20 @@ body[a="dark"] { @include dark-appearance; }
 		 url('D2CodingBold.svg') format('svg');
 }
 
+//IBMfont
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+
 // -------------------------------------------- //
 
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
-html, body { background: white; }
+html, body { background: white; font-family: 'D2coding', monospace;}
 
 html { height: 100%; }
 
 body {
   color: black;
-  font-family: D2Coding, 'D2 coding', monospace;
   font-size: 16px;
   line-height: 1.4;
   margin: 0;
@@ -95,8 +97,10 @@ table, th, td {
 }
 
 code {
-  color: white;
-  background: black;
+	border-radius: 10px;
+	color: white;
+	background: rgb(53, 53, 53);
+	font-family: D2coding;
 }
 
 div.highlighter-rouge code {
@@ -116,6 +120,5 @@ blockquote {
 
 img {
   max-width: 100%;
-  display: block;
   margin: 0 auto;
 }

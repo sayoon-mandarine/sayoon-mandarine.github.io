@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2024-04-02T06:32:07-05:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">404 not found</title><subtitle>A (nearly) no-CSS, fast, minimalist Jekyll theme.
+</subtitle><author><name>SangJeong Yoon</name></author><entry><title type="html">minishell!</title><link href="http://0.0.0.0:4000/minishell.html" rel="alternate" type="text/html" title="minishell!" /><published>2023-12-11T00:00:00-06:00</published><updated>2023-12-11T00:00:00-06:00</updated><id>http://0.0.0.0:4000/minishell</id><content type="html" xml:base="http://0.0.0.0:4000/minishell.html">&lt;p&gt;&lt;a href=&quot;https://github.com/sayoon-mandarine/micorshell&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/github-181717?style=flat-square&amp;amp;logo=github&amp;amp;logoColor=white&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr data-content=&quot;회고록	&quot; /&gt;
+
+&lt;h3 id=&quot;어려웠던-점&quot;&gt;어려웠던 점&lt;/h3&gt;
+
+&lt;h4 id=&quot;배웠던-것들&quot;&gt;배웠던 것들&lt;/h4&gt;
+
+&lt;p&gt;참고자료:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://80000coding.oopy.io/9e88ba5f-4c38-44b2-9ddd-c1626c6b4dc4&quot;&gt;POSIX shell manual 번역&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://casterian.net/algo/bnf.html&quot;&gt;BNF와 재귀하향파서&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>SangJeong Yoon</name></author><category term="toy" /><summary type="html"></summary></entry><entry><title type="html">about me</title><link href="http://0.0.0.0:4000/about-me.html" rel="alternate" type="text/html" title="about me" /><published>1999-07-24T00:00:00-05:00</published><updated>1999-07-24T00:00:00-05:00</updated><id>http://0.0.0.0:4000/about_me</id><content type="html" xml:base="http://0.0.0.0:4000/about-me.html">&lt;h4 id=&quot;응애애오&quot;&gt;응애애오..&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.namu.wiki/i/63-52Jo41_ag6_gN8BB-pPuNHQl_S9kLf4aizZKi_W8CmRaDfOecV4wV7gobI35Y9ImsW53EKmGDhr6Dl6fV494dd5UIVp8Q0zcKuhIImnzWUDHIT7aMLgjDgd1b_835x5FKtpWubR6FxRgYJtUdDg.webp&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>SangJeong Yoon</name></author><summary type="html">응애애오..</summary></entry></feed>
