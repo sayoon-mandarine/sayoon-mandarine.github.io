@@ -4,7 +4,7 @@ email: sayoon@student.42seoul.kr # email of site's author
 url: sayoon-mandarine.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  A (nearly) no-CSS, fast, minimalist Jekyll theme.
+  안선생님.. 코딩이 하고싶어요...!
 
 permalink: /:slug.html
 
