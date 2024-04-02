@@ -30,7 +30,7 @@ twitter_username: none
 github_username:  sayoon-mandarine
 
 # Build settings
-theme: no-style-please
+remote_theme: no-style-please
 plugins:
   - jekyll-feed
 
