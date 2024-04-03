@@ -17,4 +17,12 @@ entries:
       show_more_text: see all...
       show_more_url: archive.html
 
+  - title: 알고리즘
+    post_list:
+      category: algorithm
+      show_more: true
+      limit: 10
+      show_more_text: see all...
+      show_more_url: archive.html
+
   
