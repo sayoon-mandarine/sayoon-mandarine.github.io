@@ -2,7 +2,7 @@
   {%-for item in include.collection-%}
     <li>
     {%- if item.url -%}
-      <a href="{{ item.url }}" style="font-family: 'D2codingBold'" target="_blank">{{ item.title }}</a>
+      <a href="{{ item.url }}" style="font-family: 'D2codingBold'">{{ item.title }}</a>
     {%- else -%}
 	<span style="font-family: 'D2codingBold'">{{ item.title }}</span>
     {%- endif -%}
