@@ -3,7 +3,7 @@ layout: post
 title: minishell!
 category: toy
 ---
-[![](https://img.shields.io/badge/github-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sayoon-mandarine/micorshell)
+[![](https://img.shields.io/badge/github-181717?style=plastic&logo=github&logoColor=white)](https://github.com/sayoon-mandarine/micorshell)
 
 ---
 {: data-content=" 회고록 "}

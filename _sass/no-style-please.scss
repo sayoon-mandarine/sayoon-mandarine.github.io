@@ -97,10 +97,11 @@ table, th, td {
 }
 
 code {
-	border-radius: 10px;
+	border-radius: 5px;
 	color: white;
 	background: rgb(53, 53, 53);
 	font-family: D2coding;
+	padding: 0.3rem;
 }
 
 div.highlighter-rouge code {
@@ -112,7 +113,7 @@ div.highlighter-rouge code {
 
 blockquote {
   font-style: italic;
-  border: thin solid black;
+  border: thin solid rgb(53, 53, 53);
   padding: 1rem;
 
   p { margin: 0; }
