@@ -1,4 +1,4 @@
 .vscode
 _site
-_sass-cache
+.sass-cache
 docker-compose.yml
