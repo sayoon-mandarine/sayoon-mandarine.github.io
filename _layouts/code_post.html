@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		// 모든 code 태그 선택
+		var codeTags = document.getElementsByTagName("code");
+
+		// code 태그에 highlight 클래스 추가
+		for (var i = 0; i < codeTags.length; i++) {
+			codeTags[i].classList.add("highlight");
+		}
+	});
+</script>
+
+{%-include back_link.html-%}
+
+<article>
+  <p class="post-meta">
+    <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
+  </p>
+  
+  <h1>{{ page.title }}</h1>
+
+  {{ content }}
+</article>
