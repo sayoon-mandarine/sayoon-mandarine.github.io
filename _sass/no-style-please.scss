@@ -111,21 +111,24 @@ code {
 }
 
 div.highlighter-rouge code {
-  display: block;
-  overflow-x: auto;
-  white-space: pre-wrap;
-  font-family: D2coding;
-  padding: 1rem;
-}
-
-blockquote {
 	color: #eb5757;   
 	background: rgba(135,131,120,0.15);   
 	margin: 0 2px;   
 	padding: 2px 5px;   
 	border-radius:3px;   
-	border: 1px solid #e0e0e0;  
+	border: 1px solid #e0e0e0;
+	display: block;
+	overflow-x: auto;
+	white-space: pre-wrap;
 	font-family: D2coding;
+	padding: 1rem;
+}
+
+blockquote {
+  font-style: italic;
+  border: thin solid rgb(53, 53, 53);
+  padding: 1rem;
+  font-family: D2coding;
 
   p { margin: 0; }
 }
