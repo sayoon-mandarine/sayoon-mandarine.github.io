@@ -44,12 +44,15 @@ body[a="dark"] { @include dark-appearance; }
 //IBMfont
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
 
+// 나눔고딕
+@import url('https://hangeul.pstatic.net/hangeul_static/css/nanum-gothic-coding.css');
+
 // -------------------------------------------- //
 
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
-html, body { background: white; font-family: 'D2coding', monospace;}
+html, body { background: white; font-family: 'NanumGothicCoding', monospace;}
 
 html { height: 100%; }
 
@@ -100,7 +103,7 @@ code {
 	border-radius: 5px;
 	// color: white;
 	background: rgb(53, 53, 53);
-	font-family: D2coding;
+	font-family: NanumGothicCoding;
 	padding: 0.3rem;
 }
 
