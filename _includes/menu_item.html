@@ -2,9 +2,9 @@
   {%-for item in include.collection-%}
     <li>
     {%- if item.url -%}
-      <a href="{{ item.url }}" style="font-family: 'D2codingBold'">{{ item.title }}</a>
+      <a href="{{ item.url }}" style="font-family: 'NanumGothicCodingBold'">{{ item.title }}</a>
     {%- else -%}
-	<span>{{ item.title }}</span>
+	<span style="font-family: 'NanumGothicCodingBold'">{{ item.title }}</span>
     {%- endif -%}
     </li>
 
