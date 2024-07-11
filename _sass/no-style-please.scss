@@ -126,38 +126,10 @@ td {
   padding: 0.4rem;
 }
 
-code {
-  border-radius: 5px;
-  // color: white;
-  background: rgb(53, 53, 53);
-  font-family: D2coding;
-  padding: 0.3rem;
-}
-
-.highlighter-rouge {
-  overflow-x: auto;
-  white-space: pre-wrap;
-  font-family: D2coding;
-  padding: 1rem;
-}
-
-blockquote {
-  font-style: italic;
-  border: thin solid rgb(53, 53, 53);
-  padding: 1rem;
-  font-family: D2coding;
-
-  p {
-    margin: 0;
-  }
-}
-
 img {
   max-width: 100%;
   margin: 0 auto;
 }
-
-// highligher
 
 .highlight table td {
   padding: 5px;
@@ -168,7 +140,9 @@ img {
 .highlight,
 .highlight .w {
   color: #c9d1d9;
-  background-color: #161b22;
+  background-color: #303030;
+  border-radius: 10px;
+  padding: 5px;
 }
 .highlight .k,
 .highlight .kd,
@@ -313,4 +287,17 @@ img {
 .highlight .gs {
   color: #c9d1d9;
   font-weight: bold;
+}
+
+.language-plaintext.highlighter-rouge.highlight {
+  font-family: D2coding;
+  color: #eb5757;
+  background: #303030;
+  margin: 0 2px;
+  padding: 3px 7px;
+  border-radius: 5px;
+}
+
+code.highlight * {
+  font-family: D2coding;
 }
